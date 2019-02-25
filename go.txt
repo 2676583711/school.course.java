@@ -1,5 +1,0 @@
-go
-　 方法与函数的区别
-　　闭包
-  
-  wo men bu yiyang
