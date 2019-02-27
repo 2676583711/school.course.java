@@ -1,0 +1,24 @@
+package cn.zhou;
+
+public class Method1 {
+
+	public static void main(String[] args) {
+
+	}
+
+	public void panDuan(char c) {
+		switch (c) {
+		case 'a:
+			break;
+
+		}
+	}
+
+	public void course() {
+
+	}
+
+	public void biDaXiao() {
+
+	}
+}

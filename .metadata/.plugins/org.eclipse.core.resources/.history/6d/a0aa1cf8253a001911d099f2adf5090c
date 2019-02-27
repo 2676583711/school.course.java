@@ -1,0 +1,41 @@
+package cn.zhou;
+
+public class Method1 {
+
+	public static void main(String[] args) {
+
+	}
+
+	public void panDuan(char c) {
+		switch (c) {
+		case 'a':
+			System.out.println(c+"是一个元音字母");
+			break;
+		case 'e':
+			System.out.println(c+"是一个元音字母");
+			break;
+			
+		case 'i':
+			System.out.println(c+"是一个元音字母");
+			break;
+			
+		case 'o':
+			System.out.println(c+"是一个元音字母");
+			break;
+			
+		case 'u':
+			System.out.println(c+"是一个元音字母");
+
+			break;
+
+		}
+	}
+
+	public void course() {
+
+	}
+
+	public void biDaXiao() {
+
+	}
+}

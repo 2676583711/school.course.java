@@ -1,0 +1,74 @@
+package cn.zhou;
+
+public class Method1 {
+
+	public static void main(String[] args) {
+
+	}
+
+	public void panDuan(char c) {
+		switch (c) {
+		case 'a':
+			System.out.println(c+"是一个元音字母");
+			break;
+		case 'e':
+			System.out.println(c+"是一个元音字母");
+			break;
+			
+		case 'i':
+			System.out.println(c+"是一个元音字母");
+			break;
+			
+		case 'o':
+			System.out.println(c+"是一个元音字母");
+			break;
+			
+		case 'u':
+			System.out.println(c+"是一个元音字母");
+			break;
+			
+		case 'A':
+			System.out.println(c+"是一个元音字母");
+			break;
+		case 'E':
+			System.out.println(c+"是一个元音字母");
+			break;
+			
+		case 'I':
+			System.out.println(c+"是一个元音字母");
+			break;
+			
+		case 'O':
+			System.out.println(c+"是一个元音字母");
+			break;
+			
+		case 'U':
+			System.out.println(c+"是一个元音字母");
+			break;
+
+		}
+	}
+
+	public void course(int course) {
+		if(course<60){
+			System.out.println(course+":不及格");
+			
+		}else if(course >=60 &course<=80){
+			System.out.println(course+":及格");
+
+		}else if(course >=80 &course<90){
+			System.out.println(course+":良好");
+
+		}else if(course >=90 &course==100){
+			System.out.println(course+":优秀");
+
+		}else{
+			System.out.println(course+"：分数输入错误");
+		}
+		
+	}
+
+	public void biDaXiao(int[]a) {
+		
+	}
+}

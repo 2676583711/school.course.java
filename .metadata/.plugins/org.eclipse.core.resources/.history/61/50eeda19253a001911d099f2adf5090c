@@ -1,0 +1,20 @@
+package cn.zhou;
+
+public class Method1 {
+
+	public static void main(String[] args) {
+
+	}
+
+	public void panDuan(){
+		
+	}
+	
+	public void course(){
+		
+	}
+	
+	public void biDaXiao(){
+		
+	}
+}
