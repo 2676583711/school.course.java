@@ -4,7 +4,7 @@ package school.course;
  *关于 java 的对象的学习
  */
 class Person {
-	protected String name;
+	private String name;
 	protected int age;
 
 	public void speak() {

@@ -4,8 +4,8 @@ package school.course;
  *关于 java 的对象的学习
  */
 class Person {
-	protected String name;
-	protected int age;
+	private String name;
+	int age;
 
 	public void speak() {
 		System.out.println("我叫" + name + ",今年" + age + "岁了");
@@ -20,8 +20,6 @@ public class AboutClass {
 		p.age = 250;
 		p.speak();
 
-		/**********/
-		// /////*//*/**/**//*/*/*
 		class Person2 {
 			String name;
 			int age;
