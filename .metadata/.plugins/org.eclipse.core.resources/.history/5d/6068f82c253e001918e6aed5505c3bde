@@ -1,0 +1,8 @@
+package school.course;
+
+/*
+ *关于 java 的对象的学习
+ */
+public class AboutClass {
+
+}

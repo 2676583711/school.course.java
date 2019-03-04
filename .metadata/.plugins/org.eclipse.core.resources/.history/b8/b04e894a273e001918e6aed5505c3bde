@@ -1,0 +1,17 @@
+package school.course;
+
+/*
+ *关于 java 的对象的学习
+ */
+class Person {
+	String name;
+	int age;
+
+	public void speak() {
+		System.out.println("我叫"+name+"");
+	}
+}
+
+public class AboutClass {
+
+}
