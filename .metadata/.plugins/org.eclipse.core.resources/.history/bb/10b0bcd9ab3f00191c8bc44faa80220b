@@ -1,0 +1,24 @@
+package  java.course;
+
+
+public class RepeatMethod {
+
+	
+	public RepeatMethod() {
+		super();
+ 	}
+	
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public void speak(String name){
+		System.out.println("my name is "+name);
+	}
+	
+	public void speak(String name,int age){
+		System.out.println("my name is "+name+","+age);
+	}
+	
+}
