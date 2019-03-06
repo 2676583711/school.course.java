@@ -14,7 +14,7 @@ public class RepeatMethod {
  	}
 	
 	public RepeatMethod(String name ) {
-		this(name,36452);
+		this(name,32);
 		
 		this.name = name;
 		 

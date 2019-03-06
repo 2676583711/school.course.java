@@ -9,12 +9,12 @@ public class RepeatMethod {
 	@SuppressWarnings("unused")
 	private RepeatMethod() {
  		
-		 
+		this("sda",456)
 		speak();
  	}
 	
 	public RepeatMethod(String name ) {
-		this(name,36452);
+		this(name,32);
 		
 		this.name = name;
 		 

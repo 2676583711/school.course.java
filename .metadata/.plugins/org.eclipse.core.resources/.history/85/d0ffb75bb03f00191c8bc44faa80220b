@@ -23,7 +23,7 @@ public class RepeatMethod {
 	}
 
 	public RepeatMethod(String name, int age) {
-		this();
+		this("abc");
 		
 		this.name = name;
 		this.age = age;
