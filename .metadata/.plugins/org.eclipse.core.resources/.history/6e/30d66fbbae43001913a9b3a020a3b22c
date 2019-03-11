@@ -35,7 +35,7 @@ public class Person {
 
 		try {
 			//
-			Runtime.getRuntime().exec("eclipse.exe");
+			Runtime.getRuntime().exec("notepad.exe");
 		} catch (IOException e) {
 
 			e.printStackTrace();

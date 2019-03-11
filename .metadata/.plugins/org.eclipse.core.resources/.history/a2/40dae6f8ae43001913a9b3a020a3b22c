@@ -1,0 +1,11 @@
+public class Test1 {
+
+}
+
+class Aniaml {
+
+	public Aniaml() {
+		super();
+	}
+
+}

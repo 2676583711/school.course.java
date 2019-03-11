@@ -1,0 +1,29 @@
+public class Test1 {
+
+	public static void main(String[] args) {
+		new Dog();
+	}
+}
+
+class Aniaml {
+
+	public Aniaml(String name) {
+		super();
+		System.out.println("i am a " + name);
+	}
+	
+	 public void shout(String s){
+		 
+		 System.out.println(s+"...........");
+	 }
+
+}
+
+class Cat extends Aniaml {
+
+	public Dog() {
+		super("ha pi gou");
+		// TODO Auto-generated constructor stub
+	}
+
+}

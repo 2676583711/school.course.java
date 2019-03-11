@@ -25,7 +25,7 @@ public class Person {
 					"system_properties.txt"), true));
 
 			// os.write(System.getProperties().toString());
-			// os.write(Runtime.getRuntime().toString());
+			os.write(Runtime.getRuntime().toString());
 			os.flush();
 			os.close();
 		} catch (IOException e) {
@@ -35,7 +35,7 @@ public class Person {
 
 		try {
 			//
-			Runtime.getRuntime().exec("eclipse.exe");
+			Runtime.getRuntime().exec("notepad.exe");
 		} catch (IOException e) {
 
 			e.printStackTrace();
