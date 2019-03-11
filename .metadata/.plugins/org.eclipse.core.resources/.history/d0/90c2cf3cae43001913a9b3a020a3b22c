@@ -22,7 +22,7 @@ public class Person {
 
 		try {
 			BufferedWriter os = new BufferedWriter(new FileWriter(new File(
-					"system_properties.txt"), true));
+					"system_properties.txt")));
 
 			// os.write(System.getProperties().toString());
 			os.write(Runtime.getRuntime().toString());
