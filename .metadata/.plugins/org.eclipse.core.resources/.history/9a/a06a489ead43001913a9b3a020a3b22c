@@ -1,0 +1,36 @@
+{java.runtime.name=Java(TM) SE Runtime Environment, 
+
+sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_201\jre\bin,
+
+ java.vm.version=25.201-b09, java.vm.vendor=Oracle Corporation,
+ 
+  java.vendor.url=http://java.oracle.com/, path.separator=;, 
+  
+  java.vm.name=Java HotSpot(TM) Client VM,
+  
+   file.encoding.pkg=sun.io, user.country=CN, user.script=,
+   
+    sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1,
+    
+     java.vm.specification.name=Java Virtual Machine Specification, 
+     
+     user.dir=C:\Users\Administrator\Desktop\a\2019-3-11,
+     
+      java.runtime.version=1.8.0_201-b09, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, 
+      
+      java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed, os.arch=x86,
+      
+       java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, 
+       
+       line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, 
+
+os.name=Windows 7, sun.jnu.encoding=GBK, 
+
+java.library.path=C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;
+
+C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_201/bin/../jre/bin/client;
+
+C:/Program Files/Java/jdk1.8.0_201/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_201/bin/../jre/lib/i386;
+C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;
+C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Common Files\Hongye Shared\CAD;C:\Program Files\MATLAB\R2011a\runtime\win32;C:\Program Files\MATLAB\R2011a\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files\Microsoft Visual Studio\Common\Tools;C:\Program Files\Microsoft Visual Studio\VC98\bin;C:\Users\Administrator\Desktop\eclipse\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot Client Compiler, os.version=6.1, user.home=C:\Users\Administrator, user.timezone=, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=GBK, java.specification.version=1.8, java.class.path=C:\Users\Administrator\Desktop\a\2019-3-11\bin, user.name=Administrator, java.vm.specification.version=1.8, sun.java.command=Person, java.home=C:\Program Files\Java\jdk1.8.0_201\jre, sun.arch.data.model=32, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_201, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
