@@ -1,0 +1,17 @@
+public class Person {
+
+	static {
+		System.out.println("person.static code");
+	}
+
+	public static void main(String[] args) {
+
+	}
+}
+
+class Test {
+	static {
+
+		System.out.println("test.static code");
+	}
+}

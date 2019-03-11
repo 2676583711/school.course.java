@@ -1,0 +1,9 @@
+public class Person {
+
+}
+
+class Test {
+	static {
+		System.out.println("person.static code");
+	}
+}

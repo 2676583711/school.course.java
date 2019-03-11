@@ -1,0 +1,8 @@
+public class TestLambda {
+
+	main
+}
+
+interface a {
+	public void say();
+}

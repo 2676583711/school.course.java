@@ -1,0 +1,10 @@
+public class TestLambda {
+
+	public static void main(String[] args) {
+		say()->
+	}
+}
+
+interface a {
+	public void say();
+}

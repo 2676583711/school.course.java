@@ -1,0 +1,14 @@
+public class TestLambda {
+
+	public static void main(String[] args) {
+		say()->{}
+	}
+}
+
+public void say(a a){
+	a.say();
+}
+
+interface a {
+	public void say();
+}

@@ -1,0 +1,28 @@
+public class TestLambda {
+
+	/*
+	 * lambda表达式，入门案例
+	 * 
+	 * lambda表达式针对接口
+	 * 並且要求接口，只能有一个抽象方法
+	 * 
+	 * 优点：不需要显示的定义类实现接口了，减少代码量
+	 * 
+	 * 缺点：
+	 * 
+	 */
+	public static void main(String[] args) {
+
+		say(() -> System.out.println("no arguments interface"));
+
+	}
+
+	public static void say(a a) {
+		a.say();
+	}
+
+}
+
+interface a {
+	public void say();
+}

@@ -1,0 +1,13 @@
+public class Person {
+
+	static {
+		System.out.println("person.static code");
+	}
+}
+
+class Test {
+	static {
+
+		System.out.println("test.static code");
+	}
+}
