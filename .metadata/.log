@@ -168,3 +168,15 @@ org.eclipse.jgit.errors.TransportException: Nothing to push.
 
 !ENTRY org.eclipse.egit.ui 4 0 2019-03-13 08:54:49.914
 !MESSAGE Can't connect to any repository: https://github.com/2676583711/school.course.java.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.core 4 0 2019-03-13 08:56:02.887
+!MESSAGE An exception occurred during push on URI https://github.com/2676583711/school.course.java.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1170)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-03-13 08:56:02.887
+!MESSAGE Can't connect to any repository: https://github.com/2676583711/school.course.java.git (Nothing to push.)
