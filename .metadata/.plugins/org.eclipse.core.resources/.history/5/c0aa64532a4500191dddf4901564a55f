@@ -31,7 +31,6 @@ class Dog extends Animal {
 
 public class TestAbstract {
 	public static void main(String[] args) {
-		
 		Dog d = new Dog();
 		d.shout();
 		d.say(150);
@@ -40,3 +39,5 @@ public class TestAbstract {
 	}
 
 }
+
+
