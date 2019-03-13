@@ -1,0 +1,18 @@
+public class Outer {
+/*
+ * 测试内部类
+ */
+	public int o1 = 10;
+
+	public class In1{  // 成员内部类
+		public int i1 = 10;
+		
+		
+	}
+	
+	public class In2{
+		public int i1 = 10;
+		
+		
+	}
+}

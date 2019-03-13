@@ -1,0 +1,10 @@
+public class Outer {
+/*
+ * ²âÊÔÄÚ²¿Àà
+ */
+	public int o1 = 10;
+
+	public class In{
+		public int o1 = 10;
+	}
+}

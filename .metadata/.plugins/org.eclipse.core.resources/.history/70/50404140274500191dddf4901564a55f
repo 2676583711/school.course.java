@@ -1,0 +1,26 @@
+public class Outer {
+	/*
+	 * 测试内部类
+	 */
+	public int o1 = 10;
+
+	public class In1 { // 成员内部类,public 级别
+		public int i1 = 10;
+		
+		syso
+
+	}
+
+	private class In2 { // 成员内部类,private级别
+		public int i1 = 10;
+
+	}
+
+	public void out() {
+
+		class Inner1 { // 方法内部类，不能添加修饰符
+
+		}
+	}
+
+}
