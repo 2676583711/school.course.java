@@ -1,0 +1,26 @@
+public class TestInterface implements Animal3 {
+
+	@Override
+	public void shout() {
+		System.out.println("ths dog is shoutting....");
+
+	}
+
+	@Override
+	public void run() {
+		System.out.println("ths dog is running....");
+
+	}
+
+}
+
+interface Animal2 {
+
+	void shout();
+
+	void run();
+}
+
+interface Animal3 extends Animal2 {
+	// 空接口继承Animal2接口
+}

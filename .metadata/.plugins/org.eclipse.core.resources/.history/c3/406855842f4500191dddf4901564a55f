@@ -1,0 +1,14 @@
+
+public class TestInterface {
+
+	
+}
+
+
+
+    interface Animal2{
+    	
+    	void shout();
+    	
+	
+}

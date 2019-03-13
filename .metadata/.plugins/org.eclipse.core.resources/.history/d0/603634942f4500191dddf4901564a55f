@@ -1,0 +1,14 @@
+
+public class TestInterface implements Animal2{
+
+	
+}
+
+
+
+    interface Animal2{
+    	
+    	void shout();
+    	
+    	void run();
+}

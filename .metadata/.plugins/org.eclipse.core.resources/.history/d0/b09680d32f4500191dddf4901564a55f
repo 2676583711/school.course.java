@@ -1,0 +1,22 @@
+public class TestInterface implements Animal2 {
+
+	@Override
+	public void shout() {
+		System.out.println(ths dog is shoutting....);
+
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+interface Animal2 {
+
+	void shout();
+
+	void run();
+}

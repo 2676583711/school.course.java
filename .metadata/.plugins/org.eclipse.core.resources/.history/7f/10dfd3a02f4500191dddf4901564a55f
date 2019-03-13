@@ -1,0 +1,26 @@
+
+public class  implements Animal2{
+
+	@Override
+	public void shout() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}
+
+
+
+    interface Animal2{
+    	
+    	public void shout();
+    	
+    	void run();
+}
