@@ -1,0 +1,22 @@
+abstract class TestAbstract {
+
+	public abstract void shout();
+
+	public void say(int i) {
+
+		System.out.println("i=" + i);
+	}
+}
+
+class Dog extends TestAbstract {
+
+	@Override
+	public void shout() {
+		System.out.println("speak english ");
+	}
+
+}
+
+public class TestAbstract {
+
+}

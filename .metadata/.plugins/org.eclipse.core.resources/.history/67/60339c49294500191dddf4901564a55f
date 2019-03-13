@@ -1,0 +1,41 @@
+abstract class Animal {
+
+	public abstract void shout();
+
+	public void say(int i) {
+
+		System.out.println("i=" + i);
+	}
+}
+
+class Dog extends Animal {
+
+	@Override
+	public void shout() {
+		System.out.println("speak english ");
+	}
+
+}
+
+// errors:The type Animal cannot be a
+// superinterface of Cat; a superinterface must
+// be an interface
+class Cat implements Animal {
+	@Override
+	public void shout() {
+		System.out.println("speak english ");
+	}
+
+}
+
+public class TestAbstract {
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.shout();
+		d.say(150);
+
+		// new Animal(); //errors:Cannot instantiate the type Animal
+
+	}
+
+}
