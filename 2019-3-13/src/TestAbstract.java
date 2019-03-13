@@ -1,3 +1,6 @@
+import java.io.IOException;
+import java.io.InputStream;
+
 abstract class Animal {
 
 	public abstract void shout();
@@ -12,7 +15,7 @@ class Dog extends Animal {
 
 	@Override
 	public void shout() {
-		System.out.println("speak english ");
+		System.out.println("cmd");
 	}
 
 }
@@ -31,12 +34,33 @@ class Dog extends Animal {
 
 public class TestAbstract {
 	public static void main(String[] args) {
-		
+
 		Dog d = new Dog();
 		d.shout();
 		d.say(150);
 
+		try {
+			Process process = Runtime.getRuntime().exec(
+					"C:/Program Files/Git/git-bash.exe");
+			 
+			process.waitFor();
+
+			// 下面两个可以获取输入输出流
+			InputStream errorStream = process.getErrorStream();
+			InputStream inputStream = process.getInputStream();
+
+			 inputStream.read("git status".getBytes());
+			 
+			 inputStream.close();
+			 errorStream.close();
+			 
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		// new Animal(); // errors:Cannot instantiate the type Animal
+
 	}
 
 }
